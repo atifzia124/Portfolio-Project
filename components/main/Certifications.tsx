@@ -11,7 +11,7 @@ const Certifications = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Certifications
       </h1>
-      <div className="h-full w-full grid grid-flow-col md:grid-flow-row md:grid-cols-3 gap-6 px-6">
+      <div className="h-full w-full grid grid-flow-row grid-cols-2 md:grid-flow-row md:grid-cols-3 gap-6 px-6">
         {CertificationsData.map((Certification) => {
           return (
             <CertificationCard

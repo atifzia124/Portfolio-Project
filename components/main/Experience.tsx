@@ -11,8 +11,8 @@ const Experience = () => {
       className="flex flex-col items-center justify-center min-h-screen w-full h-full"
       id="experience"
     >
-      <div className="flex flex-row w-auto h-auto relative justify-center">
-        <div className="flex flex-col justify-center items-center relative w-auto h-auto top-0 z-[5]">
+      <div className="flex flex-row w-auto h-auto relative justify-center items-center">
+        <div className="relative w-auto h-auto top-0 z-[5]">
           <motion.div
             variants={slideInFromTop}
             className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
@@ -40,7 +40,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center relative w-auto h-auto top-50 z-[5]">
+      <div className="w-full h-auto flex flex-col items-center justify-center relative mx-4 px-8 top-50 z-[5]">
         <WorkExperience workExperience={WorkExperienceData} />
       </div>
       <div className="w-full flex items-start justify-center absolute">
