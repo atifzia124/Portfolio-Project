@@ -37,6 +37,7 @@ const SkillText = () => {
             <span className="text-[16px]">{categoryItem.items.join(", ")}</span>
           </div>
         ))}
+        <p className="text-center p-2">DSA and System Design</p>
       </motion.div>
     </div>
   );

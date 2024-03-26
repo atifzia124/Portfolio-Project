@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { ProjectsData } from "@/constants";
-
 const Projects = () => {
   return (
     <div
@@ -11,7 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-[50%] w-full grid grid-flow-row grid-cols-2 md:grid-flow-row md:grid-cols-4 gap-6 px-6">
+      <div className="h-[50%] w-full grid grid-flow-row grid-cols-2 md:grid-flow-row md:grid-cols-4 gap-6 px-6 z-[20]">
         {ProjectsData.map((project) => {
           return (
             <ProjectCard
@@ -19,7 +18,8 @@ const Projects = () => {
               key={project.title}
               title={project.title}
               description={project.description}
-              link={project.link}
+              github={project.github}
+              live={project.live}
             />
           );
         })}

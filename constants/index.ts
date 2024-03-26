@@ -80,14 +80,24 @@ export const Socials = [
     href: "https://github.com/atifzia124",
   },
   {
-    name: "Instagram",
-    src: "/instagram.svg",
-    href: "https://www.instagram.com/_atifzia_124",
-  },
-  {
     name: "Twitter",
     src: "/twitter.svg",
     href: "https://twitter.com/ATIFZIA124",
+  },
+  {
+    name: "LeetCode",
+    src: "/leetcode.svg",
+    href: "https://leetcode.com/atifzia124",
+  },
+  {
+    name: "Linkedin",
+    src: "/linkedin.svg",
+    href: "https://www.linkedin.com/in/atif-zia-5b55822b9",
+  },
+  {
+    name: "Instagram",
+    src: "/instagram.svg",
+    href: "https://www.instagram.com/_atifzia_124",
   },
 ];
 
@@ -96,50 +106,57 @@ export const ProjectsData = [
     title: "Explore-The-City-GPT",
     description:
       "NextJS application with GPT-3 integration, featuring Tour Page, Member Profile, gpt interaction page and Tour List page, leveraging Prisma, OpenAI's GPT-3, Clerk for authentication, and styled with Tailwind CSS and Daisy UI.",
-    link: "https://github.com/atifzia124/nextjs-project",
-    src: "/NextWebsite.png",
+    github: "https://github.com/atifzia124/ExploreTheCityGPT",
+    live: "https://github.com/atifzia124/ExploreTheCityGPT",
+    src: "/GPT-Genius.png",
   },
   {
     title: "Job-Tracker",
     description:
       "NextJS Job Tracker with authentication, job CRUD operations, monthly stats, search/filter (All/accepted/pending/declined) functionality, styled with Tailwind CSS, using TypeScript, Clerk for authentication, Prisma for data management, and hookforms with shadcn for enhanced form functionality.",
-    link: "https://github.com/atifzia124/next-gptgenius",
+    github: "https://github.com/atifzia124/ExploreTheCityGPT",
+    live: "https://github.com/atifzia124/ExploreTheCityGPT",
     src: "/CardImage.png",
   },
   {
     title: "Event-Manager-APP",
     description:
       "Created NextJS event management app with Clerk authentication, Profile and Home page, CRUD operations for admin of event, search and recommendations functionality, ticket purchase with Stripe, organize/view events. Styled with Tailwind CSS, TypeScript, utilizing Webhooks, Shadcn, UploadThing, MongoDB, and Stripe modules for seamless functionality.",
-    link: "https://github.com/atifzia124/E-Commerce-API",
-    src: "/SpaceWebsite.png",
+    github: "https://github.com/atifzia124/Event_Platform",
+    live: "https://github.com/atifzia124/ExploreTheCityGPT",
+    src: "/Event-Platform.png",
   },
   {
     title: "Portfolio-Project",
     description:
       " NextJS portfolio project with Framer Motion for smooth animations, featuring Experience, Skills, About, Projects, and Certifications sections, styled with Tailwind CSS, and TypeScript, utilizing React components for seamless development.",
-    link: "https://github.com/atifzia124/E-Commerce-API",
-    src: "/SpaceWebsite.png",
+    github: "https://github.com/atifzia124/Portfolio-Project",
+    live: "https://portfolio-project-iota-two.vercel.app/",
+    src: "/Portfolio-Project.png",
   },
   {
     title: "E-Commerce-API",
     description:
       "ExpressJS-based E-Commerce API with MongoDB, featuring user authentication, admin product management, product viewing, review functionality (add/update/delete), admin user management, Stripe payment for orders, custom error handling, authentication middleware, mongoose virtuals, pre/post functionality, and enhanced security using bcryptjs, cookie-parser, cors, express-file-upload, helmet, http-status-codes, jsonwebtokens, mongoose, rate limiter and documented with docgen.",
-    link: "https://github.com/atifzia124/E-Commerce-API",
+    github: "https://github.com/atifzia124/E-Commerce-API",
+    live: "https://portfolio-project-iota-two.vercel.app/",
     src: "/SpaceWebsite.png",
   },
   {
     title: "Furniture-store-app",
     description:
       "React furniture store app with react-router-dom, react-toastify, axios, react-query, daisyui, tailwindcss, and vite, featuring a Home page for product listing, an About section, product navigation, search/filter by category/company, sorting by name and price, user authentication, login page and Stripe payment integration.",
-    link: "https://github.com/atifzia124/E-Commerce-API",
-    src: "/SpaceWebsite.png",
+    github: "https://github.com/atifzia124/Furniture-Store-App",
+    live: "https://atif-furniture-store.netlify.app/",
+    src: "/Furniture-Store.png",
   },
   {
     title: "GitHub accounts statistics",
     description:
       "GitHub users statistics app with Auth0 authentication, search functionality, and user details display including contribution stats, repos, followers, following, personal info, gists, pie chart for user's languages, most popular repos, popular fork, and stars distribution pie chart on a language.",
-    link: "https://github.com/atifzia124/E-Commerce-API",
-    src: "/SpaceWebsite.png",
+    github: "https://github.com/atifzia124/GitHub-Account-Stats",
+    live: "https://atif-github-account-stats.netlify.app/",
+    src: "/Github-Account.png",
   },
 ];
 
@@ -192,6 +209,7 @@ export const SkillsData = [
       "ExpressJS",
       "Mongoose",
       "MYSQL",
+      "Kubernetes",
       "Clerk",
       "Cookies",
       "Tokens",
